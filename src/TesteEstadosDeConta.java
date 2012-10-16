@@ -7,7 +7,7 @@ public class TesteEstadosDeConta {
 		
 		Conta conta = new Conta(1000.0);
 		
-		conta.saqua(1010.0);
+		conta.saca(1010.0);
 
 		conta.deposita(1000.0);
 		
