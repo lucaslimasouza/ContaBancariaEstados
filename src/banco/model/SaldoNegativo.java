@@ -4,7 +4,7 @@ package banco.model;
 public class SaldoNegativo implements EstadoDeUmaConta {
 
 	@Override
-	public void saqua(Conta conta, double valor) {
+	public void saca(Conta conta, double valor) {
 		throw new RuntimeException("Conta possui saldo negativo!!");
 	}
 
