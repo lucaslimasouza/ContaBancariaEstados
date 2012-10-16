@@ -19,7 +19,7 @@ public class Conta {
 		estadoAtual.deposita(this, valor);
 	}
 	
-	public void saqua(double valor){
+	public void saca(double valor){
 		estadoAtual.saqua(this, valor);
 	}
 }
